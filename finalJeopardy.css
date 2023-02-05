@@ -1,0 +1,36 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+#finalQuestion {
+    width: 600px;
+    height: 300px;
+    border: solid black 1px;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    background-color: whitesmoke;
+}
+
+input {
+    width: 300px;
+    height: auto;
+}
+
+.bet {
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    margin-top: 60px;
+}
+
+.answer {
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+footer {
+    margin-top: 100px;
+}
