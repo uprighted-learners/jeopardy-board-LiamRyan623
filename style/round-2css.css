@@ -1,0 +1,52 @@
+body {
+    background-color: #071277;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    font-size: 60px;
+}
+
+#category {
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+   
+}
+
+
+
+
+
+input {
+    margin-top: 60px;
+    width: 300px;
+}
+
+.score {
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+.submitAnswer {
+    margin-top: 60px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.answer {
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
