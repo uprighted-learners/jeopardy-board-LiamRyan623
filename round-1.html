@@ -14,7 +14,7 @@
 
     <h2>Player Turn</h2>
 
-    <div id="category">
+    <div id="category"><!-- From here to line 69(nice) are all of the buttons that are the categories, and the questions. These are styled into a grid in the CSS "style" folder. Each page of jeopardy has a corresponding style sheet.-->
       <button class="category">CATEGORY</button>
       <button class="category">CATEGORY</button>
       <button class="category">CATEGORY</button>
@@ -23,7 +23,7 @@
       <button class="category">CATEGORY</button>
     
 
-    
+    <!-- This "onclick" is supposed to fetch a question from the questions.json file. I don't believe I ever got this to work. I may revisit Jeopardy part 2 at some point.-->
       <button onclick="fetchQuestion()" class="level1"><img src="./Assets/200.jpg" alt="$200"></button>
       <button class="level1"><img src="./Assets/200.jpg" alt="$200"></button>
       <button class="level1"><img src="./Assets/200.jpg" alt="$200"></button>
@@ -67,22 +67,22 @@
       <button><img src="./Assets/1000.jpg" alt="$1000"></button>
       <button><img src="./Assets/1000.jpg" alt="$1000"></button>
     </div>
-
+<!-- This div is what has the text input that a player would use to guess a question -->
     <div class="answer">
       Answer
       <input type="text">
     </div>
-
+<!-- This is the button that would either let the player submit an answer or pass the question. Not currently functioning. -->
     <div class="submitAnswer">
       <button>GUESS</button>
       <button>PASS</button>
     </div>
-
+<!-- Currently a placeholder. Would eventually display a player score. -->
     <div class="score">
       <h3 id="p1">Player One Score:</h3>
       <h3 id="p2">Player Two Score:</h3>
     </div>
-
+<!-- button that connects to round two of the game. -->
     <div class="round2">
       <a href="round-2.html"><button>Round Two!</button></a>
     </div>

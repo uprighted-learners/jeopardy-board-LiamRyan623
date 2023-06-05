@@ -1,8 +1,11 @@
+/* For some reason I decided that a center text align looked best. Also the wish.com jeopardy blue. */
+
 body {
     background-color: #071277;
     text-align: center;
 }
 
+/* This is sizing and bordering for the final question. I liked the whitesmoke because it wasn't quite as aggressive as just white. */
 #finalQuestion {
     width: 600px;
     height: 300px;

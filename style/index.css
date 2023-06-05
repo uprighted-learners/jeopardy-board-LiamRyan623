@@ -9,6 +9,8 @@ h1 {
     font-size: 80px;
 }
 
+/* sizing for the main JEOPARDY image on the first page. */
+
 .mainImg {
     display: block;
     width: 60%;

@@ -1,8 +1,10 @@
+/* This was the closest I could get to jeopardy blue without having the pantone color, and I was not going to spend money on that. */
 body {
     background-color: #071277;
     text-align: center;
 }
 
+/* couldn't find the fun font that Jeopardy uses, so gold times new roman it is. */
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: gold;
@@ -15,6 +17,7 @@ h2 {
     font-size: 60px;
 }
 
+/* this is what created the grid system for the questions. It's funny to look back on to see how little code is required for that. We've been working on some intense projects compared to this. */
 #category {
     display: grid;
     grid-template-columns: repeat(6, 16%);
@@ -25,7 +28,7 @@ h2 {
 
 
 
-
+/* below is mostly about placement for the individual objects. some font styling too. */
 
 input {
     margin-top: 60px;
